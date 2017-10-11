@@ -1,0 +1,45 @@
+pwd(persent working directory)
+ls(list of commands)
+cat filename(open the files)
+cat >filename(create and inserting data)
+cat >>filename(appending data)
+cd ..(back to directory)
+cd directory(enter into directory)
+cat filename.txt
+cp fiename.txt /home/raju/Documents
+rm filename(remove files)
+mv filenmae /home/raju/Documents
+gzip file(convert to .gz)
+gunzip(convert into normal)
+zcat file.gz(open .gz files)
+ifconfig(inet)
+mkdir sekhar(create directory)
+
+grep "literal_string" filename
+grep "this" demo_file
+
+grep "string" FILE_PATTERN
+grep "this" demo_*
+
+grep -i "string" FILE(case insencitive)
+grep -i "the" demo_file
+
+grep "REGEX" filename
+grep "lines.*empty" demo_file
+
+grep -iw "is" demo_file(only "is" not like "this")
+grep this demo_file(hylate)
+
+find -name "sum.java"
+find -iname "sum.java"(ignore case)
+find -name "*java*"
+find /etc -name "*java*"
+find -not -name "sum.java"
+find . -maxdepth 1 -empty(empty files in a directory)
+
+wc abcd.txt
+sed 's/unix/linux/' abcd.txt
+head -n4 abcd.txt
+tail -n4 abcd.txt
+
+
